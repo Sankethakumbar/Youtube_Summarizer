@@ -1,4 +1,5 @@
 import streamlit as st
+import whisper
 from src.youtube_summary import summarize_youtube_video
 
 # Set Streamlit Page Config
