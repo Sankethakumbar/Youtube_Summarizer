@@ -1,50 +1,50 @@
-📌 YouTube Video Summarizer
-A NLP-based mini-project that extracts and summarizes YouTube video transcripts using TF-IDF and BART.
+YouTube Summarizer 🎥📝
+A mini NLP project that extracts and summarizes YouTube video subtitles using Natural Language Processing (NLP).
+Supports two summarization methods: TF-IDF (statistical) and BART (deep learning-based).
 
-🚀 Features
-✅ Extracts subtitles using the YouTube Transcript API
-✅ Summarizes using TF-IDF or BART
-✅ Provides a Streamlit-based web interface for ease of use
-✅ Lightweight and easy to deploy
+🔹 Features
+✅ Extracts subtitles from YouTube videos using YouTube Transcript API.
+✅ Supports two summarization techniques:
 
-🛠 Installation & Setup
-
+TF-IDF (TextRank-based)
+BART (Transformer-based)
+✅ User-friendly Streamlit web interface.
+✅ Lightweight & efficient NLP processing.
+🛠 Installation
 1️⃣ Clone the Repository
 
 git clone https://github.com/Sankethakumbar/Youtube_Summarizer.git
 cd youtube-summarizer
+2️⃣ Create & Activate Virtual Environment
 
-2️⃣ Create a Virtual Environment & Activate It
+# On Windows
 
 python -m venv venv
-# Activate virtual environment:
-# Windows
 venv\Scripts\activate
-# macOS/Linux
+
+# On macOS/Linux
+
+python3 -m venv venv
 source venv/bin/activate
-
-
 3️⃣ Install Dependencies
 
 pip install -r requirements.txt
+🚀 How to Run
+1️⃣ Command-Line Interface (CLI)
+Run the summarization script using:
 
-4️⃣ Run the Streamlit Web App
+python main.py
+🔹 It will prompt for a YouTube video URL and summarization method (TF-IDF or BART).
+
+2️⃣ Streamlit Web Interface
+To launch the Streamlit-based web app:
 
 streamlit run app.py
+🔹 Open the link displayed in the terminal (e.g., http://localhost:8501)
 
-🖥 Usage
-Enter a YouTube video URL in the input field
-Choose summarization method (TF-IDF or BART)
-Click Summarize to generate the video summary
-
-📜 Technologies Used
-🔹 Python
-🔹 Streamlit (for Web UI)
-🔹 YouTube Transcript API
-🔹 Natural Language Processing (NLTK, Transformers)
-
-📌 Future Enhancements
-
-✅ Add support for more summarization models
-✅ Improve UI aesthetics
-✅ Deploy the project on Streamlit Cloud or Hugging Face Spaces
+🔧 Requirements
+Python 3.7+
+pytube (for video processing)
+nltk (for NLP preprocessing)
+transformers (for BART model)
+streamlit (for web interface)
