@@ -44,6 +44,9 @@ Click Summarize to generate the video summary
 🔹 Natural Language Processing (NLTK, Transformers)
 
 📌 Future Enhancements
+
 ✅ Add support for more summarization models
+
 ✅ Improve UI aesthetics
+
 ✅ Deploy the project on Streamlit Cloud or Hugging Face Spaces
