@@ -1,4 +1,4 @@
-YouTube Summarizer 🎥📝
+# YouTube Summarizer 🎥📝
 A mini NLP project that extracts and summarizes YouTube video subtitles using Natural Language Processing (NLP).
 Supports two summarization methods: TF-IDF (statistical) and BART (deep learning-based).
 
